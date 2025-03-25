@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "aviary"}' />
+		<title>aviary</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal .slides {
+  font-family: "Noto Sans";
+}
+.reveal .slides h1 {
+  font-family: "Noto Sans";
+}
+.reveal .slides h2 {
+  font-family: "Noto Sans";
+}
+.reveal .slides h3 {
+  font-family: "Noto Sans";
+}
+.reveal .slides code {
+  font-family: "Noto Sans Mono", monospace;
+}
+.reveal .slides a {
+  color: #1982C4;
+}
+.reveal .controls button {
+  color: #000000;
+}
+.reveal .progress span {
+  background: #000000;
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="9fcb93c33c6d6c08f5f2c8fdff266852" data-locked="owner">
+<div class="sl-block" data-block-type="text" data-name="text-b237b3" data-block-id="4ec7de57b96630b085d17237371ed6cf" style="height: auto; width: 160px; left: 400px; top: 598px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 30%; color: rgb(166, 166, 166);"><p><span style="color:#808080">FOSSGIS-Konferenz 2025</span></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-477699" data-block-id="2d508a5e23b107fd8c1b505cc7544412" style="height: auto; width: 160px; left: 400px; top: 578px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 50%;"><p><span style="font-size:1.0em">Marius Maryniak</span></p></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a9e9c5" data-block-id="9958fd9858a03def4cf94f22ff56914d" style="width: 280px; height: 280px; left: 100px; top: 85px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="150" data-natural-height="150" data-lazy-loaded="" data-src="aviary/c98c5bd1688c1f17d63526746e955df5.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-3eb498" data-block-id="8604977d83e0ab6cb88ffb99eda9f9b3" style="width: 172.015px; height: 86.0075px; left: 70.3645px; top: 555px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="300" data-natural-height="150" data-lazy-loaded="" data-src="aviary/a7f1ecf5b020d7138fab53d8867bcf41.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-565ba1" style="width: 98.807px; height: 55.5095px; left: 757.037px; top: 567.249px; min-width: 1px; min-height: 1px;" data-block-id="9f047996f3675687ec3177dd7d6d10e1"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="267" data-natural-height="150" data-lazy-loaded="" data-src="aviary/caf05516b283976cf0022f996589932e.svg"></div></div>
+
+<div class="sl-block" data-block-type="text" data-name="text-6f9946" data-block-id="b526a4201508a0b3e636f9c3bcd8cd79" style="height: auto; width: 400px; left: 480px; top: 146.635px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 150%; text-align: left;"><p>aviary</p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-a728bb" style="height: auto; width: 400px; left: 480px; top: 210px;" data-block-id="942f1b8d97631b377e5f7ad0fd4c15c1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; background-color: rgba(0, 0, 0, 0); font-size: 80%; color: rgb(166, 166, 166); text-align: left;"><p><span style="color:rgb(128, 128, 128)">Ein</span><span style="color:rgb(13, 15, 16)"> generisches Python-Framework</span><br>
+<span style="color:rgb(128, 128, 128)">zur</span><span style="color:rgb(13, 15, 16)"> KI-Inferenz</span><br>
+<span style="color:rgb(128, 128, 128)">für</span><span style="color:rgb(13, 15, 16)"> georeferenzierte Daten</span></p></div></div></section><section data-id="aebd236a7af9fe8dfd54f42df4898eb1" data-locked="owner">
+<div class="sl-block" data-block-type="image" data-name="image-873d44" data-block-id="d16decb35ececad89964aebfcd256816" style="width: 319.922px; height: 559.511px; left: 80.078px; top: 70.489px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="2400" data-natural-height="1350" data-crop-x="0.629146" data-crop-y="0" data-crop-width="0.321631" data-crop-height="1" style="left: -626px; top: 0px; width: 995px; height: 560px;" data-lazy-loaded="" data-src="aviary/24a458c1d2588ad970291c9026d69c3d.jpeg"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-cdc026" data-block-id="956131d692d6676bcab0bad573a95623" style="height: auto; width: 80px; left: 320px; top: 612px;"><div class="sl-block-style" style="z-index: 11; mix-blend-mode: soft-light;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255); font-size: 20%; padding: 5px;"><p style="text-align:right"><span style="font-size:1.0em"><span style="color:#FFFFFF">Hans-Jürgen Landes</span></span></p></div></div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" data-name="text-a728bb" data-block-id="a64383682b6e29327aa1b3bb9a59d462" style="height: auto; width: 400px; left: 480px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; background-color: rgba(0, 0, 0, 0); font-size: 80%; color: rgb(166, 166, 166); text-align: left;"><p><span style="color:#000000"><span style="text-align:start">Forschungsteam</span></span><br>
+<span style="text-align:start"><span style="color:#696969">für</span> </span><span style="color:#000000"><span style="text-align:start">Künstliche Intelligenz</span></span><br>
+<span style="color:#808080"><span style="text-align:start">und</span></span><span style="color:#000000"><span style="text-align:start"> kommunale Geoinformationen</span></span><br>
+<span style="color:#808080"><span style="text-align:start">an der Westfälischen Hochschule</span></span></p></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-d2546d" data-block-id="700aafcf0d90c3f6d4bb80e9cdaaffa3"><div class="sl-block-content sl-block-group-content" style="transform-origin: 680px 490px; z-index: 12;">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-590fd2" data-block-id="88c084542a2cc768a02fe4690d4fa5e8"><div class="sl-block-content sl-block-group-content" style="transform-origin: 530px 490px; z-index: 14;">
+<div class="sl-block" data-block-type="image" data-name="image-503bd8" data-block-id="d611edb4946eb9db9c8af26fd9568f91" style="width: 80px; height: 120px; left: 490px; top: 430px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 15; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="900" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/5fa04f6ccdd71f0dd5dd9d85b0b6731c.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-377cfb" data-block-id="1e360e98f9b5ba05dafef512d0f54a71" style="height: auto; width: 79.9997px; left: 490px; top: 430px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 30%; padding: 5px;">
+<p style="text-align:right"><span style="font-size:0.7em">Prof. Dr.</span> Christian</p>
+
+<p style="text-align:right">Kuhlmann</p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-031893" data-block-id="339235ce57e4e4d97a1a1ac6cf167e0b"><div class="sl-block-content sl-block-group-content" style="transform-origin: 630px 490px; z-index: 17;">
+<div class="sl-block" data-block-type="image" data-name="image-d81f58" data-block-id="d44e475ce9d2a18c6b8eed977a6e92b2" style="width: 79.9997px; height: 120px; left: 590px; top: 430px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 18; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="900" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/91be3feccf755774b44159b0ade4c665.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-bd4466" data-block-id="174071b625571e9ea0c89194867821a2" style="height: auto; width: 79.9997px; left: 590px; top: 430px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 30%; padding: 5px;">
+<p style="text-align: right;">Alexander</p>
+
+<p style="text-align: right;">Roß</p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-9a73b7" data-block-id="2f7fdf80fd61b458a9484db9dabef079"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830px 490px; z-index: 23;">
+<div class="sl-block" data-block-type="image" data-name="image-aa25e5" data-block-id="35f9719d58c202f94269b474fb07a8a2" style="width: 80px; height: 120px; left: 790px; top: 430px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 24; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="900" data-natural-height="1350" style="" data-lazy-loaded="" data-src="aviary/49ced8399724a33edb2b674ad90473dd.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-083272" data-block-id="3e4ea9cbf126f5f4438a5cb59056747d" style="height: auto; width: 79.9997px; left: 790px; top: 430px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25; font-size: 30%; padding: 5px;">
+<p style="text-align: right;">Stefan</p>
+
+<p style="text-align: right;">Küpper</p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-e56331" data-block-id="952238a5b1089f4c69ee19f3e24a0781"><div class="sl-block-content sl-block-group-content" style="transform-origin: 730px 490px; z-index: 20;">
+<div class="sl-block" data-block-type="image" data-name="image-5aeb6e" data-block-id="073c2cb4ead4b9c53190d19f65b24245" style="width: 80px; height: 120px; left: 690px; top: 430px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 21; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="900" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/c4e48ba6723c9b0b14c136d899a269de.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-86f5e4" data-block-id="d238e4ca0ac3885c162b8642515adbf1" style="height: auto; width: 79.9997px; left: 690px; top: 430px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22; font-size: 30%; padding: 5px;">
+<p style="text-align: right;">Marius</p>
+
+<p style="text-align: right;">Maryniak</p>
+</div></div>
+</div></div>
+
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-565ba1" data-block-id="96452176ccdeb19a97c7424506939fcc" style="width: 320.107px; height: 179.835px; left: 480px; top: 91.988px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 26;"><img class="" data-natural-width="267" data-natural-height="150" data-lazy-loaded="" data-src="aviary/caf05516b283976cf0022f996589932e.svg"></div></div></section><section data-id="2784576f8912a176d1345f83a1099673" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-8123e9" data-block-id="5302370633f739e8ba68cabcfa37df5d" style="height: auto; width: 800px; left: 80px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
+<p>Hintergrund</p>
+
+<p><span style="color:#808080">Warum entwickeln wir aviary?</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-fa2200" data-block-id="59551d0831628e9e853f72c2a7a6450b" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%; text-align: left;"><ul>
+	<li>
+	<p>Standards <span style="color:#808080">statt</span> Insellösungen</p>
+
+	<ul>
+		<li>
+		<p>Mehr Flexibilität</p>
+		</li>
+		<li>
+		<p>Weniger Redundanz</p>
+		</li>
+		<li>
+		<p>Kürzere Implementierungszeiten <span style="color:#808080">in KI-Projekten</span></p>
+		</li>
+		<li>
+		<p>Höhere Qualität <span style="color:#808080">der Software</span></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><span style="color:#808080">Gefördert im Rahmen von</span> URBAN.KI (Projektidee <span style="color:#808080">des</span> Kreises Unna)</p>
+	</li>
+</ul></div></div></section><section data-id="f97b46e20cbec872727a36421f58d617" data-locked="owner">
+
+<div class="sl-block" data-block-type="text" data-name="text-8123e9" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="ebe4bf10e9d248a0af8f4653c87f3ce5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p>Anforderungen</p>
+
+<p><span style="color:rgb(128, 128, 128)">Was soll aviary können?</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="8ee0bed8cc5dce9d9d901226b2c6e380" data-name="text-16a4b4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Generisch</p>
+
+	<ul>
+		<li>
+		<p>Modular</p>
+		</li>
+		<li>
+		<p><span style="color:#808080">Einfach</span> anpass- <span style="color:#808080">und</span> erweiterbar</p>
+		</li>
+		<li>
+		<p>Task- <span style="color:#808080">und</span> KI-Framework-unabhängig</p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p>Effizient <span style="color:#808080">und</span> skalierbar</p>
+	</li>
+	<li>
+	<p>Nutzungsfreundlich</p>
+	</li>
+</ul></div></div></section><section data-id="b75a9e3f264c0936607f7cdf09978927" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-0851b6" data-block-id="cdd95de70cebc270be329eed45b090b8" style="height: auto; width: 800px; left: 80px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 80%;">
+<p style="text-align:left">Konzepte</p>
+
+<p style="text-align:left"><span style="color:#808080">Wie führt man KI-Modelle auf georeferenzierten Daten aus?</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ecf811" data-block-id="b04dbaf4942904e9d7463be23fc8a322" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%; text-align: left;"><ul>
+	<li>
+	<p>Kachelweise Verarbeitung</p>
+
+	<ul>
+		<li>
+		<p><span style="text-align:left">Area of Interest <span style="color:#808080">definieren</span></span></p>
+		</li>
+		<li>
+		<p><span style="color:rgb(0, 0, 0); text-align:left">Datenquellen </span><span style="color:#808080"><span style="text-align:left">definieren</span></span></p>
+		</li>
+		<li>
+		<p>Datenverarbeitung <span style="color:#808080">definieren</span></p>
+		</li>
+	</ul>
+	</li>
+</ul></div></div>
+</section><section class="stack" data-id="92dfa599263ec14c025fc6e0b32228d3"><section data-id="17e56a757d1fa565c68167994ee2f396" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-caa546" data-block-id="6650edb2250b268cb3c758cd08de56da" style="height: auto; width: 800px; left: 80px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 80%;">
+<p style="text-align:left">Area of Interest definieren</p>
+
+<p style="text-align:left"><span style="color:#808080"><span style="text-align:left">Welche Kacheln sollen verarbeitet werden?</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 480px; top: 280px;" data-block-id="0564b3d05d41cc042f0279232bba545c"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 11; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">grid = aviary.Grid(
+    coordinates=np.array(...),
+    tile_size=256,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" data-block-id="e1dc2fa04c34fff5c7294f53c9fd16d6" style="height: auto; width: 320px; left: 80px; top: 280px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
+<p><code>aviary.Grid</code></p>
+
+<ul>
+	<li>
+	<p><code>coordinates</code>: <span style="color:#808080">Koordinaten der Kacheln (x_min, y_min)</span></p>
+	</li>
+	<li>
+	<p><code>tile_size</code>: <span style="color:#808080">Größe der Kacheln</span></p>
+	</li>
+</ul>
+</div></div></section><section data-id="84ccaaac2a5eb547f3155635fcb288b3" data-auto-animate="" data-auto-animate-unmatched="false" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" data-block-id="0410b5be5c9db636b028e1c7d702801f" style="width: 400px; height: 210px; left: 80px; top: 280px;"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|1-6|8-12||11" style="padding: 10px;">bounding_box = aviary.BoundingBox(
+    x_min=403691,
+    y_min=5756873,
+    x_max=405739,
+    y_max=5758921,
+)
+
+grid = aviary.Grid.from_bounding_box(
+    bounding_box=bounding_box,
+    tile_size=256,
+    snap=False,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" data-name="iframe-38e887" data-block-id="b057987978b869db07cba80fbe6e7bc6" style="width: 320px; height: 560px; left: 560px; top: 70px;"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_from_bounding_box_no_snap.html"></iframe></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b1c04f" data-block-id="60ae742fa522a04bc1b4d3d52d13ce24" style="height: auto; width: 400px; left: 80px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;"><p style="text-align: left;"><code>Grid</code> <span style="color:#808080">mit einer</span><br>
+<code>BoundingBox</code> <span style="color:#808080">erstellen</span></p></div></div></section><section data-auto-animate="" data-id="d605c269ce32763b96b2974c6e170ce4" data-auto-animate-unmatched="false" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 80px; top: 280px;" data-block-id="ec7087bece25d11667bafc0bdc3c5cd8"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="11|" style="padding: 10px;">bounding_box = aviary.BoundingBox(
+    x_min=403691,
+    y_min=5756873,
+    x_max=405739,
+    y_max=5758921,
+)
+
+grid = aviary.Grid.from_bounding_box(
+    bounding_box=bounding_box,
+    tile_size=256,
+    snap=True,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" data-name="iframe-38e887" style="width: 320px; height: 560px; left: 560px; top: 70px;" data-block-id="2a96dc18f958826800cd1d7899ae81ac"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_from_bounding_box.html"></iframe></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b1c04f" style="height: auto; width: 400px; left: 80px; top: 140px;" data-block-id="897d7d54e54c57933cb9472b71f78062"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;"><p style="text-align: left;"><code>Grid</code> <span style="color:#808080">mit einer</span><br>
+<code>BoundingBox</code> <span style="color:#808080">erstellen</span></p></div></div></section><section data-id="43d6d4c5c359120e2e4ea846aa9fa7c3" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 80px; top: 280px;" data-block-id="9901ce93bab489cd531411f723fd59d1"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|1-2|4-8|" style="padding: 10px;">gpkg_path = 'gemarkungsgrenze_muenster.gpkg'
+gdf = gpd.read_file(gpkg_path)
+
+grid = aviary.Grid.from_gdf(
+    gdf=gdf,
+    tile_size=256,
+    snap=True,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" data-name="iframe-38e887" style="width: 320px; height: 560px; left: 560px; top: 70px;" data-block-id="669603269753de3062d185f77cf3f375"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_from_gdf.html"></iframe></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b1c04f" style="height: auto; width: 400px; left: 80px; top: 140px;" data-block-id="f67277d9db04eb26372b52bc84d179d9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;"><p style="text-align: left;"><code>Grid</code> <span style="color:#808080">mit einem</span><br>
+<code>gpd.GeoDataFrame</code> <span style="color:#808080">erstellen</span></p></div></div></section><section data-id="dbd0523ef7aa1fb33bcff5311373f3eb" data-locked="owner">
+
+
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 240px; height: 35px; left: 360px; top: 280px;" data-block-id="4df5501f0c8e64b40058e96925aed9b1"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="0">grid = grid_1 - grid_2</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" data-name="iframe-38e887" style="width: 240px; height: 210px; left: 360px; top: 350px;" data-block-id="dc65538960ce365c17b48db48bbf9676"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_sub.html"></iframe></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 210px; left: 80px; top: 350px;" data-block-id="737c47fb86584e3051bc8479f7550c45" data-name="iframe-442dcc"><div class="sl-block-content" style="z-index: 12; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_add.html"></iframe></div></div>
+<div class="sl-block" data-block-type="code" style="width: 240px; height: 35px; left: 80px; top: 280px;" data-block-id="0abe4920a25bed7631e59809c2c87a63" data-name="code-6903ba"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 13; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">grid = grid_1 + grid_2</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 210px; left: 640px; top: 350px;" data-block-id="703cde86020e1254324739be54d9a0f2" data-name="iframe-64179c"><div class="sl-block-content" style="z-index: 14; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_and.html"></iframe></div></div>
+<div class="sl-block" data-block-type="code" style="width: 240px; height: 35px; left: 640px; top: 280px;" data-block-id="35573607c651ae9d6a0453fcc1e29511" data-name="code-b4fc48"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 15; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="2">grid = grid_1 | grid_2</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-e61aae" data-block-id="7a78e8360046044ca7b0cff07ffad01b" style="height: auto; width: 240px; left: 80px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 80%;"><p style="text-align:left">Vereinigung <span style="color:#808080">zweier <code>Grids</code> mit</span> <code>+</code> <span style="color:#808080">bilden</span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 240px; left: 360px; top: 140px;" data-block-id="dcfe1dead4fdb9214abdce5919178004" data-name="text-10dc93"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 80%;"><p style="text-align:left">Differenz <span style="color:#808080">zweier <code>Grids</code> mit</span> <code>-</code> <span style="color:#808080">bilden</span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 240px; left: 640px; top: 140px;" data-block-id="d37d2eaf8d7159f227ff5258408b1926" data-name="text-417257"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; font-size: 80%;"><p style="text-align:left">Schnittmenge <span style="color:#808080">zweier <code>Grids</code> mit</span> <code>|</code> <span style="color:#808080">bilden</span></p></div></div></section><section data-id="1aaf2a4739fe539d9dead9fe252d9928" data-locked="owner">
+
+
+<div class="sl-block" data-block-type="iframe" style="width: 320px; height: 245px; left: 560px; top: 70px;" data-name="iframe-64179c" data-block-id="e75fb7d09f6e3116420bdc3486c31ec6"><div class="sl-block-content" style="z-index: 10; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_append.html"></iframe></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 320px; height: 244.895px; left: 560px; top: 385.105px;" data-block-id="dd97527ded6ecbd04d7732fa183a203d" data-name="iframe-620ff7"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_remove.html"></iframe></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 70px; left: 80px; top: 210px;" data-name="code-6903ba" data-block-id="bbd4f6c4d2db67da585ec4925fa3f670"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">grid = grid.append(coordinates=(405739, 5758921))</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 69.947px; left: 80px; top: 525.026px;" data-block-id="221c2aa5740df6e5d48ae817593f263e" data-name="code-169e47"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 13; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">grid = grid.remove(coordinates=(403691, 5756873))</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-e61aae" style="height: auto; width: 400px; left: 80px; top: 105px;" data-block-id="90639f30c7a386e1942861c05f8088a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 80%; text-align: right;"><p style="text-align: left;">Koordinaten <span style="color:#808080">zu einem <code>Grid</code></span><br>
+hinzufügen <span style="color:#808080">mit</span> <code>append</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 420px;" data-block-id="c6127473673bdf182ea6aa524484e1c7" data-name="text-1aa632"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 80%; text-align: right;"><p style="text-align: left;">Koordinaten <span style="color:#808080">von einem <code>Grid</code></span><br>
+entfernen <span style="color:#808080">mit</span> <code>remove</code></p></div></div></section><section data-id="9a36b7b0ed1420c6ca5166ad4d138860" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 70px; left: 80px; top: 350px;" data-block-id="b8a0b36dc078bca19962104da4e4794d"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;">grids = grid.chunk(num_chunks=4)</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" data-name="iframe-38e887" style="width: 320px; height: 560px; left: 560px; top: 70px;" data-block-id="ebeacceae662966b1e749e0f30689c03"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_grid_chunk.html"></iframe></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b1c04f" style="height: auto; width: 400px; left: 80px; top: 210px;" data-block-id="da045f97080e84d6ca08df56d0da7b55"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;"><p style="text-align: left;"><span style="color:#808080"><code>Grid</code> </span>in mehrere <code>Grids</code><br>
+unterteilen <span style="color:#808080">mit</span> <code>chunk</code></p></div></div></section></section><section class="stack" data-id="6150e5534a1302429994a57008d2cc45"><section data-id="bc6829ad5e6e4e277f198b0e38028af0" data-locked="owner">
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="107497e8c1da4e9701b37636df392527"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 80%;">
+<p style="text-align:left">Datenquellen definieren</p>
+
+<p style="text-align:left"><span style="color:#808080"><span style="text-align:left">Woher sollen die Daten der Kacheln bezogen werden?</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="f94790aaa0f9f12c3e1b9b6fc1dbfbca"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><code>aviary.tile.<br>
+TileFetcher</code> <span style="color:#808080">Protocol</span></p>
+
+<ul>
+	<li>
+	<p><code>coordinates</code>: <span style="color:#808080">Koordinaten der Kachel (x_min, y_min)</span></p>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 478px; top: 280px;" data-block-id="44289060bdf799279301f3f2a6dc5b48"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|1|3|" style="padding: 10px;">tile_fetcher = aviary.tile.TileFetcher(...)
+
+tile = tile_fetcher(coordinates=(404587, 5757769))</code></pre></div></div></section><section data-id="3066b0b81803b197d6ed15f0276d9a19" data-auto-animate="" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="ba202ca3e5c2424004174e717678794f"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|1-3|5-18|20-33|8,23|11-15,26-30" style="padding: 10px;">url = (
+    'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+)
+
+rgb_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_rgb',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.R,
+        aviary.ChannelName.G,
+        aviary.ChannelName.B,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)
+
+nir_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_nir',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="53d4792c63497dcab47d2e351c3cd106"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><p><code>aviary.tile.<br>
+WMSFetcher</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 242.5px;" data-block-id="e7ec77a4b0b88da5651c2a3644a5ed2d" data-name="text-d10a07"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><p>Rasterdaten <span style="color:#808080">von einem</span><br>
+Web Map Service <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 221.5px;" data-block-id="6badf055d274c7e5efa8e1eaf3b42278"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-auto-animate="" data-id="f87d96292d25481f09977f6a6c63a887" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="652310e38ff0c9d3d6954dd7d92de9ad"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="11-15,26-30|" style="padding: 10px;">url = (
+    'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+)
+
+rgb_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_rgb',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.R,
+        aviary.ChannelName.G,
+        aviary.ChannelName.B,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)
+
+nir_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_nir',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.NIR,
+        None,
+        None,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="7568da0a1a0917ad3f930ac95c81c0bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><p><code>aviary.tile.<br>
+WMSFetcher</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 242.5px;" data-name="text-d10a07" data-block-id="3597c52f8837ab6c1c9d4575d253716d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><p>Rasterdaten <span style="color:#808080">von einem</span><br>
+Web Map Service <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 221.5px;" data-block-id="6978b72d7ab1e6e593a8754d7b24ce36"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-id="94d46fa3529ce96138b075e918364549" data-locked="owner"><div class="sl-block" data-block-type="iframe" style="width: 320px; height: 245px; left: 560px; top: 70px;" data-name="iframe-64179c" data-block-id="bb59d962d5a362cec97f79baec34339d"><div class="sl-block-content" style="z-index: 10; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_wms_fetcher_rgb.html"></iframe></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 320px; height: 244.895px; left: 560px; top: 385.105px;" data-name="iframe-620ff7" data-block-id="9d584e6440b9178d4fbf799a3979f031"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_wms_fetcher_nir.html"></iframe></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 70px; left: 80px; top: 210px;" data-name="code-6903ba" data-block-id="b64a14f3ddcaf74fafaec9eeb19f0268"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">rgb_tile = rgb_wms_fetcher(coordinates=(404587, 5757769))</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 69.947px; left: 80px; top: 525.026px;" data-name="code-169e47" data-block-id="5129d5ede210941cbc1c9316bfad111a"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 13; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">nir_tile = nir_wms_fetcher(coordinates=(404587, 5757769))</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-e61aae" style="height: auto; width: 400px; left: 80px; top: 105px;" data-block-id="1982c6f5be89f8b83f474c9b16c3e3c4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 80%; text-align: left;"><p><code>Tile</code> <span style="color:#808080">von einem</span> Web Map Service<br>
+(RGB-Layer) <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 420px;" data-block-id="3b4a249ef47bdebfe13fcb24165446c2" data-name="text-9eddfb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 80%; text-align: left;"><p><code>Tile</code> <span style="color:#808080">von einem</span> Web Map Service<br>
+(NIR-Layer) <span style="color:#808080">laden</span></p></div></div></section><section data-id="d48cdc9926db0b93a6884f056ed2fb08" data-auto-animate="" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="116d72a6cb4ad93d6be8169c712f8aa5"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">url = (
+    'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+)
+
+rgb_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_rgb',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.R,
+        aviary.ChannelName.G,
+        aviary.ChannelName.B,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)
+
+nir_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_nir',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="ea6ac5b5f70e65cc128c101f88b197e8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><p><code>aviary.tile.<br>
+WMSFetcher</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 242.5px;" data-block-id="75e719026fdbb53f89e9fa3b8838caaa" data-name="text-d54708"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><p>Rasterdaten<br>
+<span style="color:rgb(128, 128, 128)">mit</span> Buffer <span style="color:#808080">von einem</span><br>
+Web Map Service <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 221.5px;" data-block-id="55cbee37a92406a20848ec55c42fc1f7"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-auto-animate="" data-id="666d00f205ca6bc73b006cf6efb7c882" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="2f0758bee2d089cb3c18df70b06ca7c0"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">url = (
+    'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+)
+
+rgb_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_rgb',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.R,
+        aviary.ChannelName.G,
+        aviary.ChannelName.B,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+    buffer_size=32,
+)
+
+nir_wms_fetcher = aviary.tile.WMSFetcher(
+    url=url,
+    version=aviary.WMSVersion.V1_3_0,
+    layer='nw_dop_nir',
+    epsg_code=25832,
+    response_format='image/png',
+    channel_keys=[
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+        aviary.ChannelName.NIR,
+    ],
+    tile_size=256,
+    ground_sampling_distance=.2,
+    buffer_size=32,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="7bffc3729a402b3194f24c9ff8e1c066"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><p><code>aviary.tile.<br>
+WMSFetcher</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 242.5px;" data-name="text-d54708" data-block-id="edf49d24aeacf642429631f49e48bab1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><p>Rasterdaten<br>
+<span style="color:rgb(128, 128, 128)">mit</span> Buffer <span style="color:#808080">von einem</span><br>
+Web Map Service <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 221.5px;" data-block-id="4f4da2ba141146b1832e35c20327e85b"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-id="d0e7c5c7b7fe0dabe38c6334e5ae8d03" data-locked="owner"><div class="sl-block" data-block-type="iframe" style="width: 320px; height: 245px; left: 560px; top: 70px;" data-name="iframe-64179c" data-block-id="b67a6085da18388dcc2ad426e4f4d2bc"><div class="sl-block-content" style="z-index: 10; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_wms_fetcher_rgb_buffered.html"></iframe></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 320px; height: 244.895px; left: 560px; top: 385.105px;" data-name="iframe-620ff7" data-block-id="7f9e080710692114cf8245d27aab22b7"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation" data-preload="true" data-lazy-loaded="" data-src="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/assets/maps/map_wms_fetcher_nir_buffered.html"></iframe></div></div>
+
+
+
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 70px; left: 80px; top: 210px;" data-name="code-6903ba" data-block-id="9cf031c30a3f898edf70ab93a909d08e"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">rgb_tile = rgb_wms_fetcher(coordinates=(404587, 5757769))</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 69.947px; left: 80px; top: 525.026px;" data-name="code-169e47" data-block-id="415ca4db4dc5dcb8227b0d057af16fc7"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 13; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="4">nir_tile = nir_wms_fetcher(coordinates=(404587, 5757769))</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-e61aae" style="height: auto; width: 400px; left: 80px; top: 105px;" data-block-id="5601686f1a091fb9c228750c71bcd672"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 80%; text-align: left;"><p><code>Tile</code> <span style="color:#808080">von einem</span> Web Map Service<br>
+(RGB-Layer) <span style="color:#808080">laden</span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 420px;" data-name="text-9eddfb" data-block-id="067ee2bf19f4faf7e42ac8d2a6c4e7b9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 80%; text-align: left;"><p><code>Tile</code> <span style="color:#808080">von einem</span> Web Map Service<br>
+(NIR-Layer) <span style="color:#808080">laden</span></p></div></div></section><section data-id="0250994d56f610bff5a9d03258d0c1b1" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-892634" data-block-id="107adf2230a86edb7e1018c5bdcaaa8b" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>CompositeFetcher</code></p>
+	</li>
+	<li>
+	<p><code>VRTFetcher</code></p>
+	</li>
+	<li>
+	<p><code>WMSFetcher</code></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-fecc71" data-block-id="97341b3a13fc172497f218a081d377d3" style="height: auto; width: 800px; left: 80px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;"><p style="text-align:left">Implementierte <code>TileFetcher</code></p></div></div></section></section><section class="stack" data-id="f086720ca188e60890e33fc6a207cc60"><section data-id="fcfcc7ddbf22cdc41f52f11094fdb101" data-locked="owner">
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 480px; top: 280px;" data-block-id="e2daadff12a590e7c2edbacf0a94ec59"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">tile = aviary.Tile(
+  	channels=[
+        aviary.Channel(...),
+        aviary.Channel(...),
+        aviary.Channel(...),
+        aviary.Channel(...),
+    ]
+    coordinates=(404587, 5757769),
+    tile_size=256,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="df52f965245f653d97de884b78b516a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><code>aviary.Tile(s)</code></p>
+
+<ul>
+	<li>
+	<p><code>channels</code>: <span style="color:#808080">Kanäle der Kachel</span></p>
+	</li>
+	<li>
+	<p><code>coordinates</code>: <span style="color:#808080">Koordinaten der Kachel (x_min, y_min)</span></p>
+	</li>
+	<li>
+	<p><code>tile_size</code>: <span style="color:#808080">Größe der Kachel</span></p>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="18a8f9d287a2ba88f00de45dfb79bfb4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;">
+<p style="text-align:left"><code>Tile(s)</code> und <code>Channel</code></p>
+
+<p style="text-align:left"><span style="color:rgb(128, 128, 128)">Wie strukturiert aviary georeferenzierte Daten?</span></p>
+</div></div></section><section data-id="9fb39c00b80d9aff3ea7c976c10b0a44" data-locked="owner">
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 480px; top: 280px;" data-block-id="5e4300c6cf26af47f104df9b9941bbd6"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">channel = aviary.Channel(
+  	data=...,
+    name='my_channel',
+    buffer_size=.125,
+    time_step=None,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="bf57e60cb9c3040fa9cea99a6d43c1b9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><code>aviary.Channel</code> <span style="color:#808080">ABC</span></p>
+
+<ul>
+	<li>
+	<p><code>data</code>: <span style="color:#808080">Daten des Kanals</span></p>
+	</li>
+	<li>
+	<p><code>name</code>: <span style="color:#808080">Name des Kanals</span></p>
+	</li>
+	<li>
+	<p><code>buffer_size</code>: <span style="color:#808080">Buffer-Größe des Kanals</span></p>
+	</li>
+	<li>
+	<p><code>time_step</code>: <span style="color:#808080">Zeitschritt des Kanals</span></p>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="be14198b4ab2d8769c5245768064c9a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%;">
+<p style="text-align:left"><code>Tile(s)</code> und <code>Channel</code></p>
+
+<p style="text-align:left"><span style="color:rgb(128, 128, 128)">Wie strukturiert aviary georeferenzierte Daten?</span></p>
+</div></div></section><section data-id="ac61d2b4a5185edeab9e5697e3f81388" data-locked="owner">
+<div class="sl-block" data-block-type="image" data-name="image-6c5251" style="width: 120px; height: 120px; left: 660px; top: 500px; min-width: 1px; min-height: 1px;" data-block-id="840e8e6dffd0d27a9521086028170e59"><div class="sl-block-content" style="z-index: 10; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/70fb37adb2194b40aacdf05a4fe0b68d.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-dfbc36" style="width: 120px; height: 120px; left: 660px; top: 80px; min-width: 1px; min-height: 1px;" data-block-id="061fddaec5440c59d55f0cffa12fd1c7"><div class="sl-block-content" style="z-index: 11; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/d6bb880f7792fc30d5206b4b366b1518.png"></div></div>
+
+<div class="sl-block" data-block-type="image" data-name="image-f47ae4" style="width: 120px; height: 120px; left: 660px; top: 220px; min-width: 1px; min-height: 1px;" data-block-id="298d9c9d2c0ebc8a102ad14d7c0ab926"><div class="sl-block-content" style="z-index: 12; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/fd24c888432c1df47a739c9f25656e4c.png"></div></div>
+
+<div class="sl-block" data-block-type="image" data-name="image-bcd3ae" style="width: 120px; height: 120px; left: 660px; top: 360px; min-width: 1px; min-height: 1px;" data-block-id="f07ffa606ee595e85d5187e82a052858"><div class="sl-block-content" style="z-index: 13; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="aviary/ddaf908d4ae990428ff0c4f64f6af2c5.png"></div></div>
+
+
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 120px; left: 80px; top: 80px;" data-block-id="052c50b83e13345b69edb9aef990ae7b"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 14; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">r_channel = aviary.RasterChannel(
+  	data=np.array(...),
+    name=aviary.ChannelName.R,
+    buffer_size=.125,
+    time_step=None,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 120px; left: 80px; top: 220px;" data-block-id="3bcba9794cffe60e4614b5be7a99b549" data-name="code-76cb4a"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 15; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">g_channel = aviary.RasterChannel(
+  	data=np.array(...),
+    name=aviary.ChannelName.G,
+    buffer_size=.125,
+    time_step=None,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 120px; left: 80px; top: 360px;" data-block-id="ca7b402eed7763c5d3c22b6f318b4f14" data-name="code-da81c0"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 16; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">b_channel = aviary.RasterChannel(
+  	data=np.array(...),
+    name=aviary.ChannelName.B,
+    buffer_size=.125,
+    time_step=None,
+)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 120px; left: 80px; top: 500px;" data-block-id="6cd6fd9c0e7d3f6496b5301e1b6f2890" data-name="code-0b154a"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 17; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">nir_channel = aviary.RasterChannel(
+  	data=np.array(...),
+    name=aviary.ChannelName.NIR,
+    buffer_size=.125,
+    time_step=None,
+)</code></pre></div></div></section><section data-id="f31da33aa80ec181afdcbbd71da20105" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-892634" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="27f42fdbf432dde6db777633bd26573f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>RasterChannel</code></p>
+	</li>
+	<li>
+	<p><code>VectorChannel</code></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-fecc71" style="height: auto; width: 800px; left: 80px; top: 140px;" data-block-id="bcb2b915b3ac1b6601b35c9ed328cadf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;"><p style="text-align:left">Implementierte <code>Channel</code></p></div></div></section></section><section class="stack" data-id="30efa8c4e274590a5cff70c7ed0ca6f3"><section data-id="7ab65e2219f36f2d26204100694edb8a" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="2981f9c3604f5d55d5b76ce2c8f32b59"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 80%;">
+<p style="text-align:left">Datenverarbeitung definieren</p>
+
+<p style="text-align:left"><span style="color:#808080"><span style="text-align:left">Wie sollen die Daten der Kacheln verarbeitet werden?</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ea180e" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="81deaf1162b957a87dabe24767238fa1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><code>aviary.tile.<br>
+TilesProcessor</code> <span style="color:#808080">Protocol</span></p>
+
+<ul>
+	<li>
+	<p><code>tiles</code>: <span style="color:#808080">Batch von Kacheln</span></p>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 210px; left: 480px; top: 280px;" data-block-id="0b3d2b971313dd9f9efad1d20e0629b7"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|1|3|" style="padding: 10px;">tiles_processor = aviary.tile.TilesProcessor(...)
+
+tiles = tiles_processor(tiles=aviary.Tiles(...))</code></pre></div></div></section><section data-id="3db85c8ef2189d15e492dd2c79325a6d" data-locked="owner"><div class="sl-block" data-block-type="shape" data-name="shape-af87cb" data-block-id="aa8fa12bb36f99ebf203621bbb5fe245" style="width: 160px; height: 30.0743px; left: 601px; top: 135px;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 18;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-6a45f8" data-block-id="b0f8c586d4910d188de80bbdc8d45793" style="height: auto; width: 160px; left: 601px; top: 142.037px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 185.434px;" data-block-id="970aaf4b6087f1f954d082120a6fa27f" data-name="shape-b00d82"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 20;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 192.471px;" data-block-id="173cc018256230d74690933e2437e5eb" data-name="text-318783"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 235px;" data-block-id="0d436ac8e9fe5d9737483c495fefa40f" data-name="shape-51bd79"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 22;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 242px;" data-block-id="a403237ca475b9652a27344f3c4ac821" data-name="text-84ca49"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 285px;" data-block-id="4282c8f73971f825a5de42cd65727a59" data-name="shape-a948eb"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 24;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 292px;" data-block-id="f1b388ed84d6690a5dbab7d367584cfe" data-name="text-967b9e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 335px;" data-block-id="0d0ae29eece01721d275d334a9370ccd" data-name="shape-9021b8"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 26;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 342px;" data-block-id="ecddd96bb2cd8a45839583d406fef714" data-name="text-f617d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; font-size: 40%; color: rgb(255, 255, 255);"><p><code>Adois</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 385px;" data-block-id="9a41a3639fd6fd99389991de466f8e3a" data-name="shape-fe702c"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 28;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 392px;" data-block-id="9a221731c28c605445dacd54e2ac5a17" data-name="text-63370a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; font-size: 40%; color: rgb(255, 255, 255);"><p><code>RemoveBufferProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 435px;" data-block-id="9965a9dcee0fd0bb5ea98096854ba1a1" data-name="shape-da281c"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 30;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 442px;" data-block-id="79204539c48ac9e1b802bc6bd7338dbd" data-name="text-da700f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 485px;" data-block-id="d27c06b4575d6f1c079e1203a463f2af" data-name="shape-6a10c3"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 32;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 492px;" data-block-id="bec307e524a91b38dbb297ababb29738" data-name="text-896ba5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 33; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 165px;" data-block-id="f08c390c58eba3ef989ba051c99c6fbf" data-name="line-94126e"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 215px;" data-block-id="515674634604daa077477376bd402259" data-name="line-0cc8e7"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 265px;" data-block-id="a15be1880c8c275eebd5876843ad8a9e" data-name="line-29b97b"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 315px;" data-block-id="7584b545c919b6bb24bfa09be4d207cc" data-name="line-db8727"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 365px;" data-block-id="aad40e42e3b84aaf66976b7a574eef75" data-name="line-a96f4d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 415.074px;" data-block-id="59d9ebf62df9b3bab2c83953e2797ac6" data-name="line-e3ae98"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 465px;" data-block-id="adeabeac4a0724a22166f0164017a5ef" data-name="line-f7b821"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 515px;" data-block-id="a8927f535f88b1b74511cdb8b1160ead" data-name="line-032f37"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 601px; top: 535px;" data-block-id="bd4cbf98e925570bbef2d948ad9c41a5" data-name="shape-a03124"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 35;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 542px;" data-block-id="b01f86af9a93e8851ed06763022f201a" data-name="text-cba578"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 36; font-size: 40%; color: rgb(255, 255, 255);"><p><code>GridExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 565px;" data-block-id="630d8a4aa44390b290a15df81f432a4f" data-name="line-401118"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 681px; top: 115px;" data-block-id="7a32df31e05fa2a7b0edbc8d986abe59" data-name="line-d66588"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 37;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 248.5px;" data-name="text-d10a07" data-block-id="e6a319caa9a8934d3db18b6450a9a8b3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 38; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Rasterdaten normalisieren</p>
+	</li>
+	<li>
+	<p>adois ausführen</p>
+	</li>
+	<li>
+	<p>Buffer entfernen</p>
+	</li>
+	<li>
+	<p>Rasterdaten vektorisieren</p>
+	</li>
+	<li>
+	<p>Vektordaten exportieren</p>
+	</li>
+	<li>
+	<p>Koordinaten exportieren</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 92px;" data-block-id="dd03ee425fe44cb2ed4a166a20651231" data-name="text-517261"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 39; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 601px; top: 592.074px;" data-block-id="1efc2447d18db8d9810cc39c9a8b62f7" data-name="text-36e4d7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 40; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="e1ccbfbeeacf16ea051481399eeec53f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 41; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Beispiel 1:</span></p>
+
+<p>adois</p>
+</div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 227.5px;" data-block-id="d22ed54cb9cd5190a7af1381c3b8182f"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 43;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-id="a27103e5fc3e06c510f521f3ae9d80d8" data-locked="owner"><div class="sl-block" data-block-type="shape" data-name="shape-af87cb" style="width: 160px; height: 30.0743px; left: 480px; top: 134.963px;" data-block-id="22fe1a637a64bbc306620f421980be09"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 18;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-6a45f8" style="height: auto; width: 160px; left: 480px; top: 142px;" data-block-id="b8df1afc52151f443e8755ca281de1e5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 185.397px;" data-name="shape-b00d82" data-block-id="794f10ce88721e575fa0cdb22fea1e60"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 20;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 192.434px;" data-name="text-318783" data-block-id="b491377cc9964685fc66cc4a4cfdbc51"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 234.963px;" data-name="shape-51bd79" data-block-id="bf36fbb51897ad8ae939579569e7c773"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 22;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 241.963px;" data-name="text-84ca49" data-block-id="accd0b3b4600a16e3051906685e8d1d9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 284.963px;" data-name="shape-a948eb" data-block-id="0c5585893b2bac0990dd1ac79457a656"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 24;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 291.963px;" data-name="text-967b9e" data-block-id="c7bcae6ce3e20fb64f4eb6b8703bdf61"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 334.963px;" data-name="shape-9021b8" data-block-id="3adaae499effdcbe9c4e41b43076bc68"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 26;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 341.963px;" data-name="text-f617d8" data-block-id="f50c37ac1fdec0e6028706fd5c314754"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; font-size: 40%; color: rgb(255, 255, 255);"><p><code>MyModel1</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 384.963px;" data-name="shape-fe702c" data-block-id="23821500b2f636909b6d0928f94fe6f4"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 28;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 391.963px;" data-name="text-63370a" data-block-id="b9a805a334c74ac72551798c7a6da59a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; font-size: 40%; color: rgb(255, 255, 255);"><p><code>RemoveBufferProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 434.963px;" data-name="shape-da281c" data-block-id="a6c0351f624cc3f0d0dd160a0f22c915"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 30;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 441.963px;" data-name="text-da700f" data-block-id="ef505813fca74eb326fa6808d383c2d3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 484.963px;" data-name="shape-6a10c3" data-block-id="daba37936948773e4403422ceda0ef98"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 32;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 491.963px;" data-name="text-896ba5" data-block-id="c0e4e5c72f2496dab092ea71a6c1a917"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 33; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 164.963px;" data-name="line-94126e" data-block-id="324979d01545e1497ac398212f92cc11"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 214.963px;" data-name="line-0cc8e7" data-block-id="70cb91d77f7ad4d9fe4963e5cc5805eb"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 264.963px;" data-name="line-29b97b" data-block-id="52ebbe7b23e2b760ac9035f75e812c48"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 314.963px;" data-name="line-db8727" data-block-id="6d8371fca761a5983860676c3c93baf1"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 364.963px;" data-name="line-a96f4d" data-block-id="7ea32316b0513ed3afd81fb67954a83e"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 415.037px;" data-name="line-e3ae98" data-block-id="075603a7a8c17475d644b61878f092c0"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 464.963px;" data-name="line-f7b821" data-block-id="af1770936ecc0bdae6d02de44c41b3d6"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 514.963px;" data-name="line-032f37" data-block-id="37fb6213dabdcdefa2a8544282019a5c"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 534.963px;" data-name="shape-a03124" data-block-id="7c7a555e80bda29b004e8b7216393358"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 35;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 541.963px;" data-name="text-cba578" data-block-id="708108f36ad1ecfa515d0ce2d6cbe20d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 36; font-size: 40%; color: rgb(255, 255, 255);"><p><code>GridExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 564.963px;" data-name="line-401118" data-block-id="11ab565b37022c6596e69533081c8348"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 114.963px;" data-name="line-d66588" data-block-id="beb16d6f8336d8460a24ddff889998b0"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 37;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 248.5px;" data-name="text-d10a07" data-block-id="a2213b38a24cfc6ffa4ab009ff836470"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 38; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Rasterdaten normalisieren</p>
+	</li>
+	<li>
+	<p>KI-Modell ausführen</p>
+	</li>
+	<li>
+	<p>Buffer entfernen</p>
+	</li>
+	<li>
+	<p>Rasterdaten vektorisieren</p>
+	</li>
+	<li>
+	<p>Vektordaten exportieren</p>
+	</li>
+	<li>
+	<p>Koordinaten exportieren</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 91.963px;" data-name="text-517261" data-block-id="f93359c8390608c22251d41119370bfe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 39; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 592.037px;" data-name="text-36e4d7" data-block-id="21716e0d1ac6660a06909df38a97df6e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 40; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="1e6ca3d6c133588aa88960939fc91e92"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 41; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Beispiel 2:</span></p>
+
+<p>Zwei KI-Modelle</p>
+</div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; left: 80px; top: 227.5px;" data-block-id="2ece33292020c620c1bbe3fddf8d100a"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 42;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 480px; top: 334.963px;" data-block-id="613d14cbed873f100c8643ab450b8b63" data-name="shape-2beb1b"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 45;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 480px; top: 341.963px;" data-block-id="82d8dadbdb34ccfcec07c16fb6ff7ebe" data-name="text-15d0d4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 46; font-size: 40%; color: rgb(255, 255, 255);"><p><code>MyModel1</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 314.963px;" data-block-id="1acd1928bd2a67cf7a14571f9053ad45" data-name="line-50db37"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 43;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 560px; top: 364.963px;" data-block-id="db665bcb4302d6ca85f1e328bee35966" data-name="line-c7e2fc"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 44;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 134.963px;" data-block-id="e604c4cf228bb702a876ff708c194fa2" data-name="shape-145e33"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 55;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 142px;" data-block-id="b7c420a8d000ca06e4f5b3ac4cfd8c91" data-name="text-6c629e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 56; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 185.397px;" data-block-id="0cc3954f29eb74534e46501e32a24d0d" data-name="shape-a19f95"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 57;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 192.434px;" data-block-id="2d13c027b9af3cae624b29940e18b4ca" data-name="text-811786"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 58; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 234.963px;" data-block-id="e4f45e0a1eb4df2d58815164f5434c3e" data-name="shape-1d11b4"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 59;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 241.963px;" data-block-id="49da3dd17295ff44f74e891edb4a49a7" data-name="text-e5d09a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 60; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 284.963px;" data-block-id="21072a120af0f1502acaa54ce0933ee0" data-name="shape-859248"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 61;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 291.963px;" data-block-id="1c8bbe32ddc98bc03d87685bd4f3fde3" data-name="text-3eb794"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 62; font-size: 40%; color: rgb(255, 255, 255);"><p><code>NormalizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 334.963px;" data-block-id="5a7fdc31f74d77c095199d54c724c6eb" data-name="shape-8df011"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 63;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 341.963px;" data-block-id="c3e5ab6753a908881d49f8d30617bca5" data-name="text-bf2e84"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 64; font-size: 40%; color: rgb(255, 255, 255);"><p><code>MyModel1</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 384.963px;" data-block-id="14164def9d40596fca7a01a98d4a162e" data-name="shape-521808"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 65;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 391.963px;" data-block-id="7a5c26842bbd0b124a5a821d316c6b70" data-name="text-e7dbd4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 66; font-size: 40%; color: rgb(255, 255, 255);"><p><code>RemoveBufferProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 434.963px;" data-block-id="3ebb00a354c5219a45b4a62f051ec545" data-name="shape-855d10"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 67;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 441.963px;" data-block-id="170c519e33519f94467543f6b0c25723" data-name="text-b518c8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 68; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 484.963px;" data-block-id="24732396b05c1327eecb6efd1eb7fbae" data-name="shape-894324"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 69;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 491.963px;" data-block-id="72ae300a763ff0aab4239e98ede1cb98" data-name="text-d3deae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 70; font-size: 40%; color: rgb(255, 255, 255);"><p><code>VectorExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 164.963px;" data-block-id="c88f9f90c3f9aff9930ebfcd382ff1f7" data-name="line-95693b"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 54;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 214.963px;" data-block-id="0ae3f49e312962c34b68839e6ac8b223" data-name="line-7f1601"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 53;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 264.963px;" data-block-id="527265d0ba01f32585ec7e46cf15449b" data-name="line-edbf0b"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 47;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 314.963px;" data-block-id="72b28be53996b499acaba9f4f448477a" data-name="line-830a7f"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 48;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 364.963px;" data-block-id="57ff2581525f43cac0b4519c08d0437b" data-name="line-887dc8"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 49;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 415.037px;" data-block-id="e875cd7733100fcb8f53d1c3ae2ea537" data-name="line-ad9fbc"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 50;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 464.963px;" data-block-id="fc0f33a497421c71b7fdc472f48a920c" data-name="line-0221db"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 51;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 514.963px;" data-block-id="e04cdb6bb5fdac23be051402f3fe6825" data-name="line-ed3f57"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="10.180000000000064" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 52;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="10.180000000000064" viewbox="0 0 1 10.180000000000064"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 10.18"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 10.18"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 10.18"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 125.143px;" data-block-id="40f0c4776e2d26b523b7b92969ab191e" data-name="line-560a1b"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="10.180000000000021" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 71;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="10.180000000000021" viewbox="0 0 1 10.180000000000021"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 5.18"></path><path fill="#808080" d="M 4 2.18 L 0 10.18 L -4 2.18" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 10.18"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 10.18"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 720px; top: 334.963px;" data-block-id="1573108c65285d4979fa97bfa814c62e" data-name="shape-05bb3f"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 74;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 720px; top: 341.963px;" data-block-id="7b2a3fc1cbcb397d3a1d80fb9ef672d8" data-name="text-83a199"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 75; font-size: 40%; color: rgb(255, 255, 255);"><p><code>MyModel2</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 314.963px;" data-block-id="9e54e7a52b2c7288c2b6165efcaf00f6" data-name="line-d9bbe6"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 72;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 800px; top: 364.963px;" data-block-id="87081a32d6baaf95cb8467baea11f4ac" data-name="line-d741c5"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 73;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-6e28d2" data-block-id="6090b25bb1c0ecfa5536f0cb297c7e31" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 560px; top: 124.143px;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="240" data-line-y2="0" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 76;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="0 0 240 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L240 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L240 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L240 0"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 560px; top: 525.143px;" data-block-id="9444ecf742e41b6a1fcdd94168b46191" data-name="line-fc2a7d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="240" data-line-y2="0" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 77;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="0 0 240 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L240 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L240 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L240 0"></path></svg></div></div></section><section data-id="a4dbe16df63ae5b273bb74cc3c1db72f" data-locked="owner"><div class="sl-block" data-block-type="shape" data-name="shape-af87cb" style="width: 160px; height: 30.0743px; left: 600px; top: 260px;" data-block-id="2116792a496a5a74760dc2ad656037ed"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 14;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-6a45f8" style="height: auto; width: 160px; left: 600px; top: 267.036px;" data-block-id="38b6f6a2afef1073a0463a067891f63c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 40%; color: rgb(255, 255, 255);"><p><code>RasterizeProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 600px; top: 310.433px;" data-name="shape-b00d82" data-block-id="6306b12156f7706446cfa58ba98a3fad"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 16;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 600px; top: 317.471px;" data-name="text-318783" data-block-id="bc90ca1603d73a00f3eb466a5be7fb0b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 40%; color: rgb(255, 255, 255);"><p><code>RasterExporter</code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 600px; top: 360px;" data-name="shape-51bd79" data-block-id="faf57b894627941a9c998c9854633992"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 18;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 600px; top: 367px;" data-name="text-84ca49" data-block-id="beae511302ccc69f0b6e4c083e8dafec"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 40%; color: rgb(255, 255, 255);"><p><code><span style="color:rgb(255, 255, 255)">RasterExporter</span></code></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 30.0743px; left: 600px; top: 410px;" data-name="shape-a948eb" data-block-id="eb69523a2dd35c71c57b1eaddc86aadf"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 20;" data-shape-corner-radius="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 30"><rect width="160" height="30.0743" rx="2" ry="2" class="shape-element" fill="#000000"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 600px; top: 417px;" data-name="text-967b9e" data-block-id="a19811d3200d05b9aadd4275099124ac"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; font-size: 40%; color: rgb(255, 255, 255);"><p><code>GridExporter</code></p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 680px; top: 290px;" data-name="line-94126e" data-block-id="98dab2667815f1ef9db349d474e0403e"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 680px; top: 340px;" data-name="line-0cc8e7" data-block-id="4f08bd8fd24054df96f3607767c8f15d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 680px; top: 390px;" data-name="line-29b97b" data-block-id="734ffc5e7066580a01f634207f66eed5"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 680px; top: 440px;" data-name="line-db8727" data-block-id="ccb5b648064eb4f9545e6969b85b4327"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 680px; top: 240px;" data-name="line-d66588" data-block-id="1093f7f940637b0c6e6c2a9ecca9e518"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="20.36" data-line-color="#808080" data-line-width="2px" data-line-start-type="none" data-line-end-type="arrow" data-line-style="solid-rounded" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="20.36" viewbox="0 0 1 20.36"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#808080" stroke-width="2" stroke-linecap="round" d="M0 0 L0 15.36"></path><path fill="#808080" d="M 4 12.36 L 0 20.36 L -4 12.36" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L0 20.36"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L0 20.36"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 248.5px;" data-name="text-d10a07" data-block-id="41f29c535b3d48744390faf764f6dc0b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Vektordaten rasterisieren</p>
+	</li>
+	<li>
+	<p>Rasterdaten exportieren</p>
+	</li>
+	<li>
+	<p>Koordinaten exportieren</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 600px; top: 217px;" data-name="text-517261" data-block-id="147188af1d6dfe4ba0f243002ff9d672"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 24; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 160px; left: 600px; top: 467px;" data-name="text-36e4d7" data-block-id="d45d09415efc95284ee533e11e1e9025"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25; font-size: 40%; color: rgb(255, 255, 255);"><p><span style="color:#000000"><code>Tiles</code></span></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="a22a9baa52980e4033fc3c4ac852b23b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Beispiel 3:</span></p>
+
+<p>Trainingsdaten</p>
+</div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 227.5px;" data-block-id="5bab7410eeb65b5bcf94467f6411eeb0"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 27;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-id="f655906bf1baacef2eb47fb30cca3ce5" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-892634" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="f04385fbe61eb1edf672810d86fe2930"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>CopyProcessor</code></p>
+	</li>
+	<li>
+	<p><code>NormalizeProcessor</code></p>
+	</li>
+	<li>
+	<p><code>ParallelCompositeProcessor</code></p>
+	</li>
+	<li>
+	<p><code>RemoveBufferProcessor</code></p>
+	</li>
+	<li>
+	<p><code>RemoveProcessor</code></p>
+	</li>
+	<li>
+	<p><code>SelectProcessor</code></p>
+	</li>
+	<li>
+	<p><code>SequentialCompositeProcessor</code></p>
+	</li>
+	<li>
+	<p><code>StandardizeProcessor</code></p>
+	</li>
+	<li>
+	<p><code>VectorizeProcessor</code></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-fecc71" style="height: auto; width: 800px; left: 80px; top: 140px;" data-block-id="5ccfac57fa7331813aa134332599dc5a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;"><p style="text-align:left">Implementierte <code>TilesProcessor</code></p></div></div></section><section data-id="4e1aa9f1cb9f2a2dcfc26308f7f9b08d" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-892634" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="bf6d900abc8cca63439b2d7484cda153"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>Adois</code></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-fecc71" style="height: auto; width: 800px; left: 80px; top: 140px;" data-block-id="05ed9e9a61193a6c3be64fe14a6a1252"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;"><p style="text-align:left">Implementierte <code>TilesProcessor</code></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 280px;" data-block-id="550fbdc5307a7ca154de22158a233362" data-name="text-b51f06"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>GridExporter</code></p>
+	</li>
+	<li>
+	<p><code>VectorExporter</code></p>
+	</li>
+</ul></div></div></section></section><section class="stack" data-id="2f575b1d1bd81c1ef0b3ecb99b9eb349"><section data-id="a233338c6c474201442fdfacbb250f42" data-locked="owner">
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 831.243px; left: 80px; top: 70px;" data-block-id="df7f824a1a1e7c501b4a281dcf9eb37e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;">
+<p style="text-align:left">aviary verwenden</p>
+
+<p style="text-align:left"><span style="color:#808080"><span style="text-align:left">Wie installiert man aviary?</span></span></p>
+</div></div>
+
+<div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 70px; left: 480px; top: 280px;" data-block-id="7743ec67f5272c1c94ec91b814596b55"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 12; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="0">pip install --pre geospaitial-lab-aviary</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 68.5px; left: 480px; top: 420px;" data-block-id="4ab943f83485e7240300b410f8ed78f3" data-name="code-fefb23"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 13; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="0">uv pip install --pre geospaitial-lab-aviary</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 68.5px; left: 480px; top: 561.5px;" data-block-id="790a292b2fe72a8ea5d0f7db38d0c791" data-name="code-886519"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 14; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="0">docker pull ghcr.io/geospaitial-lab/aviary</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="d5ae50a64b5bcb90326841c9ce263667"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 1:</span></p>
+
+<p>pip</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 420px;" data-block-id="6945eb8cdcdc46a70034badfb9c6f9b2" data-name="text-d5a2bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 2:</span></p>
+
+<p>uv</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 560px;" data-block-id="f2ce63e5ea8f1e0dd6a84a6aab79262e" data-name="text-a3077b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 3:</span></p>
+
+<p>Docker</p>
+</div></div></section><section data-id="792b2f039b57f070b9ead0d8b7cb60ff" data-locked="owner">
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 831.243px; left: 80px; top: 70px;" data-block-id="c5953a2160a7d518aa20f50ea2bb19c7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;">
+<p style="text-align:left">aviary verwenden</p>
+
+<p style="text-align:left"><span style="color:#808080"><span style="text-align:left">Welche Nutzungsmöglichkeiten bietet aviary?</span></span></p>
+</div></div>
+
+<div class="sl-block" data-block-type="text" data-name="text-217c57" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="62d94245375124dc9770739bc10c0282"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p><code>​3</code> Optionen:</p>
+
+	<ul>
+		<li>
+		<p>Python API <span style="color:#808080">verwenden</span></p>
+		</li>
+		<li>
+		<p>Python API <span style="color:#808080">mit</span> Pipelines <span style="color:#808080">verwenden</span></p>
+		</li>
+		<li>
+		<p>CLI <span style="color:#808080">mit</span> Pipelines <span style="color:#808080">verwenden</span></p>
+		</li>
+	</ul>
+	</li>
+</ul></div></div></section><section data-id="f71ac561daa907c51d0564bf0bf08e10" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="130c7c1eba5ff9b703212bacc564b4fe"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">tile_pipeline = aviary.pipeline.TilePipeline(
+    grid=aviary.Grid(...),
+    tile_fetcher=aviary.tile.TileFetcher(...),
+    tiles_processor=aviary.tile.TilesProcessor(...),
+)
+
+tile_pipeline()</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="882b8f0b7c9511fb8219acb6c9b7acd1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 2:</span></p>
+
+<p>Python API <span style="color:#808080">mit</span> Pipelines</p>
+</div></div></section><section data-id="a7c65c0d86dda7e95a8ff9382b3a8c59" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="93530740fd24d7ac285eb16d28cf02f6"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="yaml"><code data-line-numbers="|1-8|10-13|14-27|28-41|43-45|47-50|51-70|71-72|73-74|75-77|78-81|82-87|" style="padding: 10px;">grid_config:
+  bounding_box_coordinates:
+    - 403691
+    - 5756873
+    - 405739
+    - 5758921
+  tile_size: 256
+  snap: true
+
+tile_fetcher_config:
+  name: 'CompositeFetcher'
+  config:
+    tile_fetcher_configs:
+      - name: 'WMSFetcher'
+        config:
+          url: 'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+          version: '1.3.0'
+          layer: 'nw_dop_rgb'
+          epsg_code: 25832
+          response_format: 'image/png'
+          channel_keys:
+            - 'r'
+            - 'g'
+            - 'b'
+          tile_size: 256
+          ground_sampling_distance: .2
+          buffer_size: 32
+      - name: 'WMSFetcher'
+        config:
+          url: 'https://www.wms.nrw.de/geobasis/wms_nw_dop'
+          version: '1.3.0'
+          layer: 'nw_dop_nir'
+          epsg_code: 25832
+          response_format: 'image/png'
+          channel_keys:
+            - 'nir'
+            - null
+            - null
+          tile_size: 256
+          ground_sampling_distance: .2
+          buffer_size: 32
+
+tile_loader_config:
+  batch_size: 4
+  num_prefetched_tiles: 1
+
+tiles_processor_config:
+  name: 'SequentialCompositeProcessor'
+  config:
+    tiles_processor_configs:
+      - name: 'NormalizeProcessor'
+        config:
+          channel_key: 'r'
+          min_value: 0
+          max_value: 255
+      - name: 'NormalizeProcessor'
+        config:
+          channel_key: 'g'
+          min_value: 0
+          max_value: 255
+      - name: 'NormalizeProcessor'
+        config:
+          channel_key: 'b'
+          min_value: 0
+          max_value: 255
+      - name: 'NormalizeProcessor'
+        config:
+          channel_key: 'nir'
+          min_value: 0
+          max_value: 255
+      - name: 'Adois'
+        config:
+      - name: 'RemoveBufferProcessor'
+        config:
+      - name: 'VectorizeProcessor'
+        config:
+          channel_key: 'adois'
+      - name: 'GridExporter'
+        config:
+          dir_path: 'output'
+          json_name: 'grid.json'
+      - name: 'VectorExporter'
+        config:
+          channel_key: 'adois'
+          epsg_code: 25832
+          dir_path: 'output'
+          gpkg_name: 'adois.gpkg'</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 320px; height: 70px; left: 80px; top: 280px;" data-block-id="8c5158264777409db48da45a73c394b4" data-name="code-d189e4"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 11; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code style="padding: 10px;" data-fragment-index="0">aviary tile-pipeline config.yaml</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="0c3129c858f0934fc0cb7071064f24e3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 3:</span></p>
+
+<p>CLI <span style="color:#808080">mit</span> Pipelines</p>
+</div></div></section></section><section class="stack" data-id="6d9b478de8ce8eda5755da494be9522c"><section data-id="999a21dc7dd572b0a447e0031ea3d244" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="21a7955bb90c111b14c2d5bc5eb8de70"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; font-size: 80%;">
+<p style="text-align:left"><span style="font-size:1.0em">aviary erweitern</span></p>
+
+<p style="text-align:left"><span style="font-size:1.0em"><span style="color:#808080"><span style="text-align:left">Wie implementiert man eigene Komponenten?</span></span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-217c57" data-block-id="f88bccf801f634fc49ff0e5198e31fec" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Komponenten:</p>
+
+	<ul>
+		<li>
+		<p><code>TileFetcher</code></p>
+		</li>
+		<li>
+		<p><code>TilesProcessor</code></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><code>​</code>2 Optionen:</p>
+
+	<ul>
+		<li>
+		<p>Eigene Komponente <span style="color:#808080">in der</span> Python API <span style="color:#808080">verwenden</span></p>
+		</li>
+		<li>
+		<p>Eigene Komponente <span style="color:#808080">in der</span> CLI <span style="color:#808080">als</span> Plugin <span style="color:#808080">verwenden</span></p>
+		</li>
+	</ul>
+	</li>
+</ul></div></div></section><section data-id="91b571ebcb224c330c7e32cd3369065e" data-auto-animate="" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="2e02c3b07283a2d509be514449557bf8"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="" style="padding: 10px;">class MyTilesProcessor:
+
+    def __init__(self) -&gt; None:
+        ...
+
+    def __call__(
+        self,
+        tiles: Tiles,
+    ) -&gt; Tiles:
+        ...</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="834d23cda9c75a0073c2c125abcb01de"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 1:</span></p>
+
+<p>Python API</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 248.5px;" data-name="text-6ad714" data-block-id="f4648c83c034314ba26bb32edf279839"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Protocol <span style="color:#808080">implementieren</span></p>
+	</li>
+	<li>
+	<p><code>MyTilesProcessor</code> <span style="color:#808080">wie </span><span style="font-size:1.0em">aviary<span style="color:rgb(0, 0, 0)">’s Komponenten </span><span style="color:#808080">verwenden</span></span></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 227.5px;" data-block-id="c6b713264d21f8b734952102570bf7e8"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section><section data-id="986703362ad385316023c050ff9435b8" data-auto-animate="" data-locked="owner"><div class="sl-block" data-block-type="code" data-name="code-f6754a" style="width: 400px; height: 560px; left: 480px; top: 70px;" data-block-id="253d6034d6455c895469351205d863de"><div class="sl-block-content notranslate" data-highlight-theme="darcula" data-code-frame="none" style="z-index: 10; border-style: solid; border-radius: 2px;"><pre style="font-size: 12px; line-height: 14px; tab-size: 4;" class="python"><code data-line-numbers="|5-8,17-21|1-2|10-15|4|" style="padding: 10px;">class MyTilesProcessorConfig(pydantic.BaseModel):
+    ...
+
+@register_tiles_processor(config_class=MyTilesProcessorConfig)
+class MyTilesProcessor:
+
+    def __init__(self) -&gt; None:
+        ...
+
+    @classmethod
+    def from_config(
+        cls,
+        config: MyTilesProcessorConfig,
+    ) -&gt; MyTilesProcessor:
+        ...
+
+    def __call__(
+        self,
+        tiles: Tiles,
+    ) -&gt; Tiles:
+        ...</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="" style="height: auto; width: 320px; left: 80px; top: 140px;" data-block-id="c853e18f464323853c73eaeae369a4dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Option 2:</span></p>
+
+<p>CLI</p>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 80px; top: 248.5px;" data-name="text-6717f6" data-block-id="9aca2c3d4f9d52f47da5271a58e8e9b4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Protocol <span style="color:#808080">implementieren</span></p>
+	</li>
+	<li>
+	<p><code>Config</code> <span style="color:#808080">implementieren</span></p>
+	</li>
+	<li>
+	<p><code>from_config</code><br>
+	<span style="color:#808080">implementieren</span></p>
+	</li>
+	<li>
+	<p>Komponente registrieren</p>
+	</li>
+	<li>
+	<p><code>MyTilesProcessor</code> <span style="color:#808080">wie </span><span style="font-size:1.0em">aviary<span style="color:rgb(0, 0, 0)">’s Komponenten </span><span style="color:#808080">verwenden</span></span></p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 227.5px;" data-block-id="9d125e736133bdb220480b14f7d372d6"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="320" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="320" height="1" viewbox="0 0 320 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L320 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L320 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L320 0"></path></svg></div></div></section></section><section data-id="1a0248a37f82f5fa891202792d534fd4" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="c68ff515ad5e3b214507414e999feec0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;">
+<p style="text-align:left">Backlog</p>
+
+<p style="text-align:left"><span style="color:#808080">Woran arbeiten wir als nächstes?</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-111eff" data-block-id="291a1d76feb022c58c97742c3fa4424d" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 80%; text-align: left;"><ul>
+	<li>
+	<p>Web-App <span style="color:#808080">für eine</span> interaktive Konfiguration <span style="color:#808080">entwickeln</span></p>
+	</li>
+	<li>
+	<p>How-to-Guides <span style="color:#808080">erstellen</span></p>
+	</li>
+	<li>
+	<p>Neue Komponenten <span style="color:#808080">implementieren</span></p>
+
+	<ul>
+		<li>
+		<p><code>TileFetcher</code>:</p>
+
+		<ul>
+			<li>
+			<p><code>COGFetcher</code></p>
+			</li>
+			<li>
+			<p><code>GPKGFetcher</code></p>
+			</li>
+		</ul>
+		</li>
+		<li>
+		<p><code>TilesProcessor</code>:</p>
+
+		<ul>
+			<li>
+			<p><code>RasterizeProcessor</code></p>
+			</li>
+			<li>
+			<p><code>GraphProcessor</code></p>
+			</li>
+		</ul>
+		</li>
+		<li>
+		<p><code>​aviary.vector</code></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><code>​​</code>Neue KI-Modelle <span style="color:#808080">integrieren</span></p>
+	</li>
+</ul></div></div></section><section class="stack" data-id="4dc5e525b00e81e42087a6bb38f56421"><section data-id="7e3436e7580432e1162bdf66f76a85d1" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-f4cbc3" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="c14a4c317c986cd5c7652c4e01a4cadd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Neue KI-Modelle <span style="color:#808080">zur</span> Auswertung <span style="color:#808080">von</span> Luftbildern <span style="color:#808080">entwickeln</span></p>
+	</li>
+	<li>
+	<p>Basis-Modell <span style="color:#808080">trainieren</span></p>
+	</li>
+	<li>
+	<p>Fine-Tuning <span style="color:#808080">für konkrete</span> Use-Cases <span style="color:#808080">durchführen</span></p>
+	</li>
+	<li>
+	<p><span style="color:#808080"><span style="color:#808080">Gefördert im Rahmen von</span></span> URBAN.KI (Projektidee <span style="color:#808080"><span style="color:#808080">des</span></span> Kreises Recklinghausen)</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="527161af62a397c7d1763ee7a1f35f88"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;">
+<p style="text-align:left">Neue KI-Modelle</p>
+
+<p style="text-align:left"><span style="color:#808080">Woran arbeiten wir parallel?</span></p>
+</div></div></section><section data-id="8dfe0f835614b0290650efa34b31e4ce" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 360px; left: 80px; top: 140px;" data-block-id="add29826289e61385d2fcaf5f5ca9912"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Use-Case 1:</span></p>
+
+<p>Gebäude</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 80px; top: 248.5px;" data-name="text-6ad714" data-block-id="294415c353da5bab496ae00aaf916c13"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Geneigtes Dach ohne Begrünung</p>
+	</li>
+	<li>
+	<p>Geneigtes Dach mit Begrünung</p>
+	</li>
+	<li>
+	<p>Flachdach ohne Begrünung</p>
+	</li>
+	<li>
+	<p>Flachdach mit Begrünung</p>
+	</li>
+	<li>
+	<p>Flachdach mit Kiesschüttung</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 80px; top: 227.5px;" data-block-id="9612425aa5218849a7f973d610ebdc6a"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="360" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="360" height="1" viewbox="0 0 360 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L360 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L360 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L360 0"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 520px; top: 140px;" data-block-id="a33e750b2a081b50052760ec0c048a0a" data-name="text-dfa0c9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Use-Case 2:</span></p>
+
+<p>Versiegelte Flächen</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 520px; top: 248.5px;" data-block-id="796f8a24b4da72c33651bbfcf980142b" data-name="text-f957c1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Verkehrsflächen</p>
+	</li>
+	<li>
+	<p>Zuwegungen</p>
+	</li>
+	<li>
+	<p>Schottergärten</p>
+	</li>
+	<li>
+	<p>Pools</p>
+	</li>
+	<li>
+	<p>Sonstige</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 520px; top: 227.5px;" data-block-id="8c2ecf185b2b96fceace06f681c6fd04" data-name="line-ad8ded"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="360" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="360" height="1" viewbox="0 0 360 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L360 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L360 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L360 0"></path></svg></div></div></section><section data-id="f1dea746d941a147f5f1353f80e38ed0" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-297e82" style="height: auto; width: 360px; left: 80px; top: 140px;" data-block-id="ecae0054dd4cf77648062aff60bb74d4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Use-Case 3:</span></p>
+
+<p>Nicht versiegelte Flächen</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 80px; top: 248.5px;" data-name="text-6ad714" data-block-id="f3efda827d4bbe96e57919300e43df2d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Niedrige Vegetation</p>
+	</li>
+	<li>
+	<p>Mittlere Vegetation</p>
+	</li>
+	<li>
+	<p>Hohe Vegetation</p>
+	</li>
+	<li>
+	<p>Agrarflächen</p>
+	</li>
+	<li>
+	<p>Gewässer</p>
+	</li>
+	<li>
+	<p>Sonstige</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-bcd235" style="width: auto; height: auto; left: 80px; top: 227.5px;" data-block-id="9902691f3dcb7ef7aadd1cdbfd07380d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="360" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="360" height="1" viewbox="0 0 360 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L360 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L360 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L360 0"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 520px; top: 140px;" data-name="text-dfa0c9" data-block-id="563b020f5bf6e97f643ea966a15190e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 80%;">
+<p><span style="color:#808080">Use-Case 4:</span></p>
+
+<p>Solaranlagen</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 520px; top: 248.5px;" data-name="text-f957c1" data-block-id="17ed9a2a7401d42dbdbface42e158eb5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Photovoltaik</p>
+	</li>
+	<li>
+	<p>Solarthermie</p>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 520px; top: 227.5px;" data-name="line-ad8ded" data-block-id="8afa8e512c278d000578d9c5416d8dd3"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="360" data-line-y2="0" data-line-color="#d3d3d3" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="360" height="1" viewbox="0 0 360 1"><path class="line-element" fill="rgba(0,0,0,0)" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" d="M0 0 L360 0"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L360 0"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L360 0"></path></svg></div></div></section></section><section data-id="8bcff2ab06a67acd41e69c1139751781" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-f4cbc3" data-block-id="fe45b4894b436574a7e548bb06d350f6" style="height: auto; width: 800px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 80%;"><ul>
+	<li>
+	<p>Feature Requests <span style="color:#808080">und</span> Bug Reports <span style="color:#808080">erstellen</span></p>
+
+	<ul>
+		<li>
+		<p><a href="https://github.com/geospaitial-lab/aviary/issues" target="_blank">GitHub Issues</a></p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p>Feedback <span style="color:#808080">geben und</span> Support <span style="color:#808080">erhalten</span></p>
+
+	<ul>
+		<li>
+		<p><a href="https://github.com/geospaitial-lab/aviary/discussions" target="_blank">GitHub Discussions</a></p>
+		</li>
+		<li>
+		<p><a href="http://matrix.to/#/#geospaitial-lab-aviary:matrix.org" target="_blank">Matrix</a></p>
+		</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-caa546" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="c8ad6e505bdcd537a8d39a3347622770"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%;">
+<p style="text-align:left">Community</p>
+
+<p style="text-align:left"><span style="color:#808080">Wie kannst du beitragen?</span></p>
+</div></div></section><section data-id="316dc90ba7d531f5d4a548e9e1d343c9" data-locked="owner"><div class="sl-block" data-block-type="text" data-name="text-b31089" style="height: auto; width: 240px; left: 140.251px; top: 445px;" data-block-id="a94f18969fe06a72289dd21fccdb16d1"><a class="sl-block-style" style="z-index: 10; transform: rotate(0deg);" href="https://github.com/mrsmrynk" target="_blank"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 50%;"><p>@mrsmrynk</p></div></a></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 240px; left: 140.251px; top: 515px;" data-name="text-9a9061" data-block-id="817a959f6c6b159fe0d6b9119e8461ea"><a class="sl-block-style" style="z-index: 11;" href="https://matrix.to/#/@mrsmrynk:matrix.org" target="_blank"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 50%; color: rgb(57, 145, 239);"><p>@mrsmrynk:matrix.org</p></div></a></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 240px; left: 140.251px; top: 585px;" data-name="text-2a1907" data-block-id="ad2bd7ba4b17c115fbb4f27a51e97fb3"><a class="sl-block-style" style="z-index: 12;" href="mailto:marius.maryniak@w-hs.de" target="_blank"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left; font-size: 50%; color: rgb(57, 145, 239);"><p>marius.maryniak@w-hs.de</p></div></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-797580" style="width: 30px; height: 30px; left: 80px; top: 510px; min-width: 1px; min-height: 1px;" data-block-id="395441f99dfa7a06fe4dcd95207b4ed3"><div class="sl-block-content" style="z-index: 13;" data-inline-svg="false"><img class="" data-natural-width="150" data-natural-height="150" data-lazy-loaded="" data-src="aviary/54b4eff597279466cb2c367b7836b80a.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-0f4c87" style="width: 30px; height: 30px; left: 80px; top: 440px; min-width: 1px; min-height: 1px;" data-block-id="cf42d9545d184a8a7fd9de27b4bc4d65"><div class="sl-block-content" style="z-index: 14;" data-inline-svg="false"><img class="" data-natural-width="150" data-natural-height="150" data-lazy-loaded="" data-src="aviary/52b30a43cfca153591c2ee2c6b884250.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b3cf53" style="width: 40px; height: 40px; left: 75px; top: 575.178px; min-width: 1px; min-height: 1px;" data-block-id="300431d8d1e053d6667a5419ed437b71"><div class="sl-block-content" style="z-index: 15;" data-inline-svg="false"><img class="" data-natural-width="24" data-natural-height="24" data-lazy-loaded="" data-src="aviary/f7cbe649f0ec1e28a1d00c58d47704b7.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-96a01d" data-block-id="1159cc5a53811397f43134f4587b71ae" style="width: 242.371px; height: 136.163px; left: 637.629px; top: 140px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 16;"><img class="" data-natural-width="267" data-natural-height="150" data-lazy-loaded="" data-src="aviary/14a577e87dc69530f60001d76e7bb5c8.svg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-496a85" data-block-id="6d706f7ff9cd921ec55a7d0b9032aabd" style="width: 209.749px; height: 209.749px; left: 80px; top: 140px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 17; border-style: solid; border-radius: 2px;"><img class="" data-natural-width="500" data-natural-height="500" data-crop-x="0.047445" data-crop-y="0.047445" data-crop-width="0.902676" data-crop-height="0.902676" style="left: -11px; top: -11px; width: 232px; height: 232px;" data-lazy-loaded="" data-src="aviary/f27d2c7c58ed1f5dfd7cf675a790f475.svg"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-6dc65f" data-block-id="1bd6ca56414b611169e583fbfcc2b218" style="height: auto; width: 80px; left: 320px; top: 173.375px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; font-size: 80%;">
+<p style="text-align:left"><a href="https://geospaitial-lab.github.io/aviary-FOSSGIS-2025/index.html" target="_blank">Link</a></p>
+
+<p style="text-align:left"><span style="color:#808080">zu</span></p>
+
+<p style="text-align:left"><span style="color:#808080">den</span></p>
+
+<p style="text-align:left">Folien</p>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3368785,"slug":"aviary","title":"aviary","description":"","width":960,"height":700,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/cbad6c9dee2fadff9edd91524d0bc139/thumb.jpg?1742845797","view_count":0,"user":{"id":2870762,"username":"mrsmrynk","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/77fb4ee2d7c54b36ffe651492d9a8e2c?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"pro","team_id":null,"settings":{"id":57484567,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":50,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":3,"data_updated_at":1742901030440,"font_typekit":"","font_google":"Space Grotesk, Space Mono, Noto Sans, Noto Sans Mono","time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"de","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>
