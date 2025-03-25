@@ -2,4 +2,4 @@
 
 ## FOSSGIS-Konferenz 2025
 
-[Link zu den Folien](https://geospaitial-lab.github.io/aviary-FOSSGIS-2025)
+[Link](https://geospaitial-lab.github.io/aviary-FOSSGIS-2025) zu den Folien
