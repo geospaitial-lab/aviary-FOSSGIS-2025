@@ -42,6 +42,16 @@
   background: #000000;
 }
 
+.reveal .slide-number {
+    font-size: clamp(15px, 1.5vw, 30px) !important;
+    text-align: center !important;
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    background: transparent !important;
+}
+
 .logo-overlay {
     position: fixed;
     bottom: 0;
@@ -1294,7 +1304,7 @@ class MyTilesProcessor:
 				progress: true,
 				mouseWheel: false,
 				showNotes: false,
-				slideNumber: false,
+				slideNumber: true,
 				fragmentInURL: true,
 
 				autoSlide: 0,
